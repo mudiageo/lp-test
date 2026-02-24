@@ -18,6 +18,7 @@ export function Avatar({ src, name, size = 'md', className }: AvatarProps) {
   const initials = name
     ? name
         .split(' ')
+        .filter(Boolean)
         .map((n) => n[0])
         .join('')
         .toUpperCase()

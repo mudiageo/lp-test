@@ -28,7 +28,7 @@ export function DeleteConfirmModal({ ideaId, ideaTitle, onClose }: DeleteConfirm
         </div>
         <h2 className="text-lg font-semibold text-gray-900">Are you sure you want to delete?</h2>
         <p className="mt-2 text-sm text-gray-500">
-          You&apos;re attempting to delete &quot;{ideaTitle}&quot;
+          You&apos;re attempting to delete &ldquo;{ideaTitle}&rdquo;
         </p>
         <p className="mt-1 text-sm font-bold text-red-600">This action cannot be undone!</p>
 
